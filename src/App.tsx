@@ -1,10 +1,10 @@
 import { About } from "./components/About";
 // import { Cta } from "./components/Cta";
 import { FAQ } from "./components/FAQ";
-import { Features } from "./components/Features";
+import { Jobs } from "./components/Jobs";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
-import { HowItWorks } from "./components/HowItWorks";
+import { Pricing } from "./components/Pricing";
 import { Navbar } from "./components/Navbar";
 // import { Newsletter } from "./components/Newsletter";
 // import { Pricing } from "./components/Pricing";
@@ -20,10 +20,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Sponsors />
       <About />
-      <HowItWorks />
-      <Features />
+      <Pricing />
+      <Jobs />
       <Services />
       {/* <Cta /> */}
       <Testimonials />
