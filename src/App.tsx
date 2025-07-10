@@ -10,9 +10,8 @@ import { Navbar } from "./components/Navbar";
 // import { Pricing } from "./components/Pricing";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Services } from "./components/Services";
-import { Sponsors } from "./components/Sponsors";
 import { Team } from "./components/Team";
-import { Testimonials } from "./components/Testimonials";
+import { ContactUs } from "./components/ContactUs";
 import "./App.css";
 
 function App() {
@@ -21,15 +20,13 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Pricing />
+
       <Jobs />
-      <Services />
-      {/* <Cta /> */}
-      <Testimonials />
-      <Team />
-      {/* <Pricing /> */}
-      {/* <Newsletter /> */}
-      <FAQ />
+      <Pricing />
+      {/*<Services />*/}
+      {/* <ContactUs />*/}
+      {/* <Team />*/}
+      {/* <FAQ />*/}
       <Footer />
       <ScrollToTop />
     </>

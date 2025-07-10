@@ -1,6 +1,4 @@
-import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
-import { HeroCards } from "./HeroCards";
 
 export const Hero = () => {
   return (
@@ -25,7 +23,7 @@ export const Hero = () => {
         <div className="items-center space-y-4 md:space-y-0 md:space-x-4">
           <a
             rel="noreferrer noopener"
-            href="#jobs"
+            href="#footer"
             className={`w-full md:w-2/5 ${buttonVariants({
               variant: "outline",
             })}`}

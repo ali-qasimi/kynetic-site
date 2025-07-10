@@ -25,20 +25,21 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
+    href: "#about",
+    label: "About",
+  },
+  {
     href: "#jobs",
     label: "Jobs",
   },
-  {
-    href: "#testimonials",
-    label: "Testimonials",
-  },
+
   {
     href: "#pricing",
     label: "Pricing",
   },
   {
-    href: "#faq",
-    label: "FAQ",
+    href: "#footer",
+    label: "Contact Us",
   },
 ];
 
@@ -122,7 +123,8 @@ export const Navbar = () => {
               </a>
             ))}
           </nav>
-
+          <ModeToggle />
+          {/*
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
@@ -134,8 +136,8 @@ export const Navbar = () => {
               Github
             </a>
 
-            <ModeToggle />
-          </div>
+            
+          </div>*/}
         </NavigationMenuList>
       </NavigationMenu>
     </header>
