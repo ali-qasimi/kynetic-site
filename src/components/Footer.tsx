@@ -17,7 +17,7 @@ export const Footer = () => {
           </a>
         </div>
 
-        <div className="flex flex-col gap-2">
+        {/* <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Chat to Us</h3>
           <div>
             <a
@@ -28,16 +28,58 @@ export const Footer = () => {
               LinkedIn
             </a>
           </div>
+        </div> */}
+
+        <div className="flex flex-col gap-2">
+          <h3 className="font-bold text-lg">Company</h3>
+            <a
+              rel="noreferrer noopener"
+              href="#about"
+              className="opacity-60 hover:opacity-100"
+            >
+                About Us
+            </a>
+            <a
+              rel="noreferrer noopener"
+              href="#jobs"
+              className="opacity-60 hover:opacity-100"
+            >
+                Jobs
+            </a>
+            <a
+              rel="noreferrer noopener"
+              href="#pricing"
+              className="opacity-60 hover:opacity-100"
+            >
+                Pricing
+            </a>
+            <a
+              rel="noreferrer noopener"
+              href="#termsofservice"
+              className="opacity-60 hover:opacity-100"
+            >
+                Terms of Service
+            </a>
+            <a
+              rel="noreferrer noopener"
+              href="#privacypolicy"
+              className="opacity-60 hover:opacity-100"
+            >
+                Privacy Policy
+            </a>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Call Us</h3>
-          <div>0401022222</div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Email Us</h3>
-          <div>info.kyneticconsulting@gmail.com</div>
+          <h3 className="font-bold text-lg">Contact</h3>
+          <div>Email: info.kyneticconsulting@gmail.com</div>
+          <div>Phone: 0401022222</div>
+          <a
+              rel="noreferrer noopener"
+              href="#"
+              className="opacity-60 hover:opacity-100"
+            >
+              LinkedIn
+            </a>
         </div>
         {/*
         <div className="flex flex-col gap-2">

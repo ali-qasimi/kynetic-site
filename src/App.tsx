@@ -1,6 +1,6 @@
 import { About } from "./components/About";
 // import { Cta } from "./components/Cta";
-import { FAQ } from "./components/FAQ";
+// import { FAQ } from "./components/FAQ";
 import { Jobs } from "./components/Jobs";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
@@ -9,8 +9,8 @@ import { Navbar } from "./components/Navbar";
 // import { Newsletter } from "./components/Newsletter";
 // import { Pricing } from "./components/Pricing";
 import { ScrollToTop } from "./components/ScrollToTop";
-import { Services } from "./components/Services";
-import { Team } from "./components/Team";
+// import { Services } from "./components/Services";
+// import { Team } from "./components/Team";
 import { ContactUs } from "./components/ContactUs";
 import "./App.css";
 
@@ -24,7 +24,7 @@ function App() {
       <Jobs />
       <Pricing />
       {/*<Services />*/}
-      {/* <ContactUs />*/}
+      <ContactUs />
       {/* <Team />*/}
       {/* <FAQ />*/}
       <Footer />

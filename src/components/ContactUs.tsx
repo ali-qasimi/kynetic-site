@@ -1,13 +1,13 @@
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+// import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import {
   Card,
   CardContent,
-  CardDescription,
+  // CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 
-interface TestimonialProps {
+/*interface TestimonialProps {
   image: string;
   name: string;
   userName: string;
@@ -57,7 +57,7 @@ const testimonials: TestimonialProps[] = [
     comment:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
-];
+];*/
 
 export const ContactUs = () => {
   return (
@@ -87,13 +87,13 @@ export const ContactUs = () => {
         <Card>
           <CardHeader>
             <CardTitle>
-              <a
-                href=""
+              Chat to us on <a
+                href="https://www.linkedin.com/"
                 className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text"
+                target="_blank"
               >
-                Chat{" "}
+                LinkedIn{" "}
               </a>{" "}
-              to us on LinkedIn
             </CardTitle>
           </CardHeader>
         </Card>

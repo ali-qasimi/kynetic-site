@@ -15,7 +15,7 @@ import {
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
+// import { ModeToggle } from "./mode-toggle";
 import { LogoIcon } from "./Icons";
 
 interface RouteProps {
@@ -38,7 +38,7 @@ const routeList: RouteProps[] = [
     label: "Pricing",
   },
   {
-    href: "#footer",
+    href: "#contact-us",
     label: "Contact Us",
   },
 ];
@@ -62,7 +62,7 @@ export const Navbar = () => {
 
           {/* mobile */}
           <span className="flex md:hidden">
-            <ModeToggle />
+            {/* <ModeToggle /> */}
 
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2">
@@ -123,7 +123,7 @@ export const Navbar = () => {
               </a>
             ))}
           </nav>
-          <ModeToggle />
+          {/* <ModeToggle /> */}
           {/*
           <div className="hidden md:flex gap-2">
             <a
