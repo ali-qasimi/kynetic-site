@@ -9,14 +9,14 @@ export const Hero = () => {
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
               Kynetic Consulting
             </span>{" "}
-            Conneting ICT
+            Connecting ICT
           </h1>{" "}
           <h2 className="inline text-center">
             <span className="inline text-center bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Professional
+              Professionals
             </span>{" "}
           </h2>
-          <h2 className="inline text-center">with unique opportunities</h2>
+          <h2 className="inline text-center">with Unique Opportunities</h2>
         </main>
         <br></br>
         <br></br>
