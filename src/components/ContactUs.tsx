@@ -74,7 +74,10 @@ export const ContactUs = () => {
             <CardTitle>Email us</CardTitle>
           </CardHeader>
 
-          <CardContent>info.kyneticconsulting@gmail.com</CardContent>
+          <CardContent>
+            <a href='mailto:contact@kyneticconsulting.com.au' target={"_blank"} > contact@kyneticconsulting.com.au </a>
+          </CardContent>
+          
         </Card>
 
         <Card>
@@ -82,7 +85,12 @@ export const ContactUs = () => {
             <CardTitle>Call us</CardTitle>
           </CardHeader>
 
-          <CardContent>0401022222</CardContent>
+          <CardContent>
+            Ali: <a href='tel:0401029211' target={"_blank"}> 0401029211 </a> <br />
+            Cena: <a href='tel:0470324601' target={"_blank"}> 0470324601 </a>
+          </CardContent>
+          
+          
         </Card>
         <Card>
           <CardHeader>
