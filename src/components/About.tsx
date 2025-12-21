@@ -16,7 +16,7 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Kyentic Consulting
+                ByteSpeed Solutions
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
                 At ByteSpeed Solutions, we are specialists in Salesforce and
