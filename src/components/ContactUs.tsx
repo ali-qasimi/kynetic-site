@@ -75,7 +75,7 @@ export const ContactUs = () => {
           </CardHeader>
 
           <CardContent>
-            <a href='mailto:contact@kyneticconsulting.com.au' target={"_blank"} > contact@kyneticconsulting.com.au </a>
+            <a href='mailto:admin@bytespeed.com.au' target={"_blank"} > admin@bytespeed.com.au </a>
           </CardContent>
           
         </Card>

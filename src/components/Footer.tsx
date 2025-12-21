@@ -13,7 +13,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            Kynetic Consulting
+            ByteSpeed Solutions
           </a>
         </div>
 
@@ -71,7 +71,7 @@ export const Footer = () => {
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Contact</h3>
-          <div>Email: info.kyneticconsulting@gmail.com</div>
+          <div>Email: admin@bytespeed.com.au</div>
           <div>Phone: 0401022222</div>
           <a
               rel="noreferrer noopener"

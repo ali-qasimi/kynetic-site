@@ -7,7 +7,7 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline text-center">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Kynetic Consulting
+              ByteSpeed Solutions
             </span>{" "}
             Connecting ICT
           </h1>{" "}

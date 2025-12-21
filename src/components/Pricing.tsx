@@ -81,7 +81,7 @@ export const Pricing = () => {
         </span>
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        At Kynetic Consulting, we genuinely understand the frustration that
+        At ByteSpeed Solutions, we genuinely understand the frustration that
         comes with facing unfair, opaque, and excessively inflated fees,
         especially when they seem to serve no purpose other than to take
         advantage of clients and contractors alike. These types of opportunistic

@@ -19,7 +19,7 @@ export const About = () => {
                 Kyentic Consulting
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                At Kynetic Consulting, we are specialists in Salesforce and
+                At ByteSpeed Solutions, we are specialists in Salesforce and
                 DevOps contract recruitment across Australia. Our focus is
                 sharp, our approach is transparent, and our team brings years of
                 hands-on experience in the very fields we recruit for, giving us
