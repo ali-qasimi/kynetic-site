@@ -26,11 +26,11 @@ interface PricingProps {
 
 const pricingList: PricingProps[] = [
   {
-    title: "First 12 Months",
+    title: "Flat Fee",
     popular: 0,
-    price: 10,
+    price: 5,
     description:
-      "As part of our commitment, we charge a flat fee of only 10% for the first 12 months of the contract.",
+      "As part of our commitment, we charge a flat fee of only 5% for the life of the contract.",
     buttonText: "Get Started",
     benefitList: [
       "1 Team member",
@@ -40,36 +40,36 @@ const pricingList: PricingProps[] = [
       "lorem ipsum dolor",
     ],
   },
-  {
-    title: "After 12 Months",
-    popular: 1,
-    price: 8,
-    description:
-      "If your contract extends beyond the initial 12 months, our fee drops to just 8%. This means you’ll take home more pay—even if your employer doesn’t give you a raise. It’s our way of rewarding your continued work and helping you earn more over time, simply by keeping our fees fair and transparent.",
-    buttonText: "Start Free Trial",
-    benefitList: [
-      "4 Team member",
-      "4 GB Storage",
-      "Upto 6 pages",
-      "Priority support",
-      "lorem ipsum dolor",
-    ],
-  },
-  {
-    title: "Self Find",
-    popular: 0,
-    price: 5,
-    description:
-      "We believe in rewarding your initiative and experience. If you find a contract opportunity through your own network and choose to work with us, we’ll only charge a reduced fee of 5%. This allows you to leverage the connections you’ve built over your career while still benefiting from our support and services—at a significantly lower cost.",
-    buttonText: "Contact US",
-    benefitList: [
-      "10 Team member",
-      "8 GB Storage",
-      "Upto 10 pages",
-      "Priority support",
-      "lorem ipsum dolor",
-    ],
-  },
+  // {
+  //   title: "After 12 Months",
+  //   popular: 1,
+  //   price: 8,
+  //   description:
+  //     "If your contract extends beyond the initial 12 months, our fee drops to just 8%. This means you’ll take home more pay—even if your employer doesn’t give you a raise. It’s our way of rewarding your continued work and helping you earn more over time, simply by keeping our fees fair and transparent.",
+  //   buttonText: "Start Free Trial",
+  //   benefitList: [
+  //     "4 Team member",
+  //     "4 GB Storage",
+  //     "Upto 6 pages",
+  //     "Priority support",
+  //     "lorem ipsum dolor",
+  //   ],
+  // },
+  // {
+  //   title: "Self Find",
+  //   popular: 0,
+  //   price: 5,
+  //   description:
+  //     "We believe in rewarding your initiative and experience. If you find a contract opportunity through your own network and choose to work with us, we’ll only charge a reduced fee of 5%. This allows you to leverage the connections you’ve built over your career while still benefiting from our support and services—at a significantly lower cost.",
+  //   buttonText: "Contact US",
+  //   benefitList: [
+  //     "10 Team member",
+  //     "8 GB Storage",
+  //     "Upto 10 pages",
+  //     "Priority support",
+  //     "lorem ipsum dolor",
+  //   ],
+  // },
 ];
 
 export const Pricing = () => {
@@ -81,23 +81,7 @@ export const Pricing = () => {
         </span>
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        At ByteSpeed Solutions, we genuinely understand the frustration that
-        comes with facing unfair, opaque, and excessively inflated fees,
-        especially when they seem to serve no purpose other than to take
-        advantage of clients and contractors alike. These types of opportunistic
-        pricing practices have unfortunately become all too common in the
-        industry, often leading to mistrust and dissatisfaction on both ends of
-        the service. <br></br>
-        <br></br>That’s why we’ve built our business on a foundation of
-        fairness, transparency, and integrity. We are committed to keeping our
-        fees consistently low, clearly communicated, and entirely free from
-        hidden charges. Our approach ensures that contractors receive a higher
-        portion of their earnings, empowering them to do their best work, while
-        clients benefit from meaningful cost savings without compromising on
-        quality or service. <br></br>
-        <br></br>By prioritizing honest pricing, we aim to create long-term,
-        trust-based relationships with everyone we work with. It's more than
-        just a policy, it's our mission.
+        At ByteSpeed Solutions, we understand the frustration with unfair and opaque fees that exploit clients and contractors. That's why we prioritize fairness, transparency, and integrity with consistently low, clear fees and no hidden charges. This empowers contractors with higher earnings and provides clients with cost savings without sacrificing quality, fostering long-term, trust-based relationships.
       </h3>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {pricingList.map((pricing: PricingProps) => (
